@@ -29,7 +29,7 @@ Azure AI 语音服务可将语音转换为文本，以及将文本转换为可�
 
 1. 选择 [https://aka.ms/mslearn-speech-files****](https://aka.ms/mslearn-speech-files) 以下载 speech.zip。**** 打开  文件夹。 
 
-1. 在“语音入门”页面上的“语音”下，查找“实时语音转文本”****。 选择“试用实时语音转文本功能”****。
+1. 在“语音入门”页面上的“语音转文本”下，查找“实时语音转文本”****。 选择“试用实时语音转文本功能”****。
 
     ![语音入门](media/recognize-synthesize-speech/try-out-speech-to-text.png)
 

@@ -73,7 +73,7 @@ lab:
 
     ![人们在商店中的图像，其中有植物遮挡了人脸。](./media/create-face-solutions/store-camera-3.jpg)
 
-1. 上传 store-camera-2.jpg 并查看返回的人脸检测详细信息。**** 请注意 Azure AI 人脸服务如何检测被部分遮住的人脸。 
+1. 上传 store-camera-3.jpg 并查看返回的人脸检测详细信息。**** 请注意 Azure AI 人脸没有检测到被遮盖的人脸。
 
 在本练习中，你了解了 Azure AI 服务如何检测图像中的人脸。 如果有时间，可以随意尝试示例图像或某些自己的图像。
 

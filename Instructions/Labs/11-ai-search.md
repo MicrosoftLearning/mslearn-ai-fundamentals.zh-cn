@@ -183,7 +183,7 @@ lab:
     - 运行认知技能的技能组，以生成更多的扩充字段。
     - 将提取的字段映射到索引。
 
-1. 在 Azure AI 搜索资源的“概述”页面的下半部分，选择“索引器********”选项卡。此选项卡将显示新创建的咖啡索引器****。 稍等片刻，然后选择“&orarr; 刷新”，直到“状态”显示“成功” 。
+1. 返回到 Azure AI 搜索资源页。 在左窗格中的“搜索管理”下，选择“索引器”。******** 选择新创建的“coffee-indexer”。**** 稍等片刻，然后选择“&orarr; 刷新”，直到“状态”显示“成功” 。
 
 1. 选择索引器名称以查看更多详细信息。
 
@@ -197,21 +197,40 @@ lab:
 
    ![如何查找搜索浏览器的屏幕截图。](media/create-cognitive-search-solution/5-exercise-screenshot-7.png)
 
-1. 请注意，所选索引为创建的 coffee-index。
+2. 请注意，所选索引为创建的 coffee-index。 在所选索引下方，将“视图”更改为“JSON 视图”。****** 
 
     ![搜索资源管理器的屏幕截图。](media/create-cognitive-search-solution/search-explorer-query.png)
 
-    在“查询字符串”字段中，输入 `search=*&$count=true`，然后选择“搜索”。 搜索查询会返回搜索索引中的所有文档，在 @odata.count 字段中包含所有文档的计数。 搜索索引应返回包含搜索结果的 JSON 文档。
+在“JSON 查询编辑器”字段中，复制粘贴：**** 
+```json
+{
+    "search": "*",
+    "count": true
+}
+```
+3. 选择**搜索**。 搜索查询会返回搜索索引中的所有文档，在 @odata.count 字段中包含所有文档的计数。 搜索索引应返回包含搜索结果的 JSON 文档。
 
-    > 注意：如果显示消息“要在门户中搜索，请在索引 CORS 设置中允许门户源”，选择“允许门户”，然后选择“搜索”   。
+4. 现在，让我们按位置进行筛选。 在“JSON 查询编辑器”字段中，复制粘贴：**** 
+```json
+{
+    "search": "locations:'Chicago'",
+    "count": true
+}
+```
+5. 选择**搜索**。 查询将搜索索引中的所有文档，并筛选出芝加哥位置的评论。 应在 `@odata.count` 字段中看到 `3`。
 
-1. 现在，让我们按位置进行筛选。 在“查询字符串”字段中输入 `search=locations:'Chicago'`，然后选择“搜索”。 查询将搜索索引中的所有文档，并筛选出芝加哥位置的评论。
-
-1. 现在，让我们按情绪进行筛选。 在“查询字符串”字段中输入 `search=sentiment:'negative'`，然后选择“搜索”。 查询将搜索索引中的所有文档，并筛选出具有负面情绪的评论。
+6. 现在，让我们按情绪进行筛选。 在“JSON 查询编辑器”字段中，复制粘贴：**** 
+```json
+{
+    "search": "sentiment:'negative'",
+    "count": true
+}
+```
+7. 选择**搜索**。 查询将搜索索引中的所有文档，并筛选出具有负面情绪的评论。 应在 `@odata.count` 字段中看到 `1`。
 
    > 注意：查看结果如何按 `@search.score` 排序。 这是搜索引擎给出的评分，指示结果与给定查询的匹配程度。
 
-1. 我们可能想要解决的问题之一就是某些评价存在的原因。 让我们看看与负面评价相关的关键短语。 你认为哪些原因可能会导致这种评价？
+8. 我们可能想要解决的问题之一就是某些评价存在的原因。 让我们看看与负面评价相关的关键短语。 你认为哪些原因可能会导致这种评价？
 
 ## 查看知识存储
 
@@ -219,36 +238,36 @@ lab:
 
 1. 在 Azure 门户中，导航回你的 Azure 存储帐户。
 
-1. 在左侧菜单窗格中，选择“容器”。 选择“knowledge-store”容器。
+2. 在左侧菜单窗格中，选择“容器”。 选择“knowledge-store”容器。
 
     ![knowledge-store 容器的屏幕截图。](media/create-cognitive-search-solution/knowledge-store-blob-0.png)
 
-1. 选择任意项，然后单击 objectprojection.json 文件。
+3. 选择任意项，然后单击 objectprojection.json 文件。
 
     ![objectprojection.json 的屏幕截图。](media/create-cognitive-search-solution/knowledge-store-blob-1.png)
 
-1. 选择“编辑”以查看为 Azure 数据存储中的一个文档生成的 JSON。
+4. 选择“编辑”以查看为 Azure 数据存储中的一个文档生成的 JSON。
 
     ![“编辑”按钮查找方式的屏幕截图。](media/create-cognitive-search-solution/knowledge-store-blob-2.png)
 
-1. 选择屏幕左上角的存储 Blob 痕迹导航，返回到存储帐户容器。
+5. 选择屏幕左上角的存储 Blob 痕迹导航，返回到存储帐户容器。
 
     ![存储 Blob 痕迹导航的屏幕截图。](media/create-cognitive-search-solution/knowledge-store-blob-4.png)
 
-1. 在“容器”中选择 coffee-skillset-image-projection 容器。 选择任意项目。
+6. 在“容器”中选择 coffee-skillset-image-projection 容器。 选择任意项目。
 
     ![技能组容器的屏幕截图。](media/create-cognitive-search-solution/knowledge-store-blob-5.png)
 
-1. 选择任意 .jpg 文件。 选择“编辑”以查看存储在文档中的图像。 请注意如何以这种方式存储文档中的所有图像。
+7. 选择任意 .jpg 文件。 选择“编辑”以查看存储在文档中的图像。 请注意如何以这种方式存储文档中的所有图像。
 
     ![已保存映像的屏幕截图。](media/create-cognitive-search-solution/knowledge-store-blob-3.png)
 
-1. 选择屏幕左上角的存储 Blob 痕迹导航，返回到存储帐户容器。
+8. 选择屏幕左上角的存储 Blob 痕迹导航，返回到存储帐户容器。
 
-1. 在左侧面板中选择“存储浏览器”，然后选择“表” 。 索引中的每个实体都有一个表。 选择 coffeeSkillsetKeyPhrases 表。
+9. 在左侧面板中选择“存储浏览器”，然后选择“表” 。 索引中的每个实体都有一个表。 选择 coffeeSkillsetKeyPhrases 表。
 
     查看知识存储能够从评价内容中捕获的关键短语。 许多字段都是键，因此你可关联表，例如关系数据库。 最后一个字段显示技能组提取的关键短语。
 
 ## 了解详细信息
 
-此简单搜索仅为 Azure AI 搜索服务的某些功能建立索引。 若要详细了解此服务的用途，请参阅 [Azure AI 搜索服务页面](/azure/search/search-what-is-azure-search)。
+此简单搜索仅为 Azure AI 搜索服务的某些功能建立索引。 若要详细了解此服务的用途，请参阅 [Azure AI 搜索服务页面](https://learn.microsoft.com/azure/search)。
