@@ -49,7 +49,7 @@ Azure AI 语言服务包括问题解答** 功能，你将用它来创建知识�
 1. 在新的浏览器标签页中，打开“Language Studio”门户 ([https://language.azure.com](https://language.azure.com?azure-portal=true))，然后使用与 Azure 订阅关联的 Microsoft 帐户登录。
 1. 如果系统提示选择语言资源，请选择以下设置：
     - “Azure 目录”****：包含订阅的 Azure 目录。**
-    - Azure 订阅****：你的 Azure 订阅**。
+    - **Azure 订阅**：*你的 Azure 订阅*。
     - “语言资源”****：先前创建的语言资源**。
 
     如果系统未提示你选择语言资源，原因可能是订阅中有多个语言资源；在这种情况下，你应该：

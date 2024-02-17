@@ -36,7 +36,7 @@ Azure AI 文档智能能够分析和提取表单和文档中的信息，然后�
 现在，你已准备好分析虚构的 Northwind Traders 零售公司的收据。
 
 1. 选择 [https://aka.ms/mslearn-receipt****](https://aka.ms/mslearn-receipt) 以将示例文档下载到计算机。 打开  文件夹。 
-1. 选择“Form Recognizer Studio”以返回到“开始使用 Document Intelligence Studio”页面，然后在“收据”下选择“试用****。********
+1. 选择“Document Intelligence Studio”以返回到“开始使用 Document Intelligence Studio”页面，然后在“收据”下选择“试用”****。********
 1. 在“预生成”下拉列表中，确保选中“收据”****。
 1. 选择“浏览文件”，然后导航到保存相应图片的文件夹。**** 选择收据图片，然后选择“打开”****。 图像显示在屏幕左侧。
 
