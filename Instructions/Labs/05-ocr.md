@@ -61,7 +61,7 @@ lab:
     - 在“检测到的属性”中，图像中找到的任何文本都将组织成区域、线条和字词的分层结构。****
     - 在图像中，文本的位置由范围框指示，如下所示：
 
-    ![图像中概述的文本的图像](media/read-text-computer-vision/text-bounding-boxes.png)
+    ![图像中加了边框的文本的图像。](media/read-text-computer-vision/advert-bounding-boxes.jpg)
 
 1. 现在可以尝试另一个图像。 选择“浏览文件”，然后导航到保存来自 GitHub 的文件的文件夹。**** 选择“letter.jpg”****。
 
