@@ -16,6 +16,6 @@ AI-900 培训师实验室是 AI-900 实验室的一部分，可在 Microsoft Lea
 | AI-900 计算机视觉 | 在 Vision Studio 中分析图像 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250145) |
 | AI-900 自然语言处理 | 使用 Language Studio 分析文本 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250314) |
 | AI-900 文档智能 | 在 Document Intelligence Studio 中提取表单数据 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250315) |
-| AI-900 生成式 AI | 使用必应 Copilot 探索生成式 AI | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2249955) |
+| AI-900 生成式 AI | 探索 Microsoft Edge 中的 Microsoft Copilot | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2249955) |
 
 
