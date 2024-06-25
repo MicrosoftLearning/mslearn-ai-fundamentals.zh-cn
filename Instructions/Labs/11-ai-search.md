@@ -36,7 +36,7 @@ lab:
     - **订阅**：Azure 订阅。
     - **资源组**：选择或创建具有唯一名称的资源组。
     - **服务名称**：唯一名称。
-    - **位置**：选择任何可用区域。
+    - 位置****：*选择任何可用区域。如果在美国东部，请使用“美国东部 2”*。
     - 定价层：基本
 
 1. 选择“查看 + 创建”，并在看到“验证成功”响应后，选择“创建”。
@@ -124,7 +124,7 @@ lab:
 
 1. 选择“下一步: 添加认知技能(可选)”。
 
-1. 在“附加认知服务”**** 部分，选择 Azure AI 服务资源。  
+1. 在“附加 AI 服务”部分，选择 Azure AI 服务资源****。  
 
 1. 在“添加扩充”部分中：
     - 将技能集名称更改为 coffee-skillset。
@@ -152,11 +152,12 @@ lab:
     - 图像详细信息
     - 图像引用
 
-    > 注意：将显示一条警告，要求输入存储帐户连接字符串。
+    > 注意**** 出现要求“存储帐户连接字符串”**** 的警告。
     >
     > ![屏幕截图显示存储帐户连接屏幕警告，其中已选中“选择一个现有连接”。](media/create-cognitive-search-solution/6a-azure-cognitive-search-enrichments-warning.png)
     >
-    > 1. 选择“现有连接”。 选择前面创建的存储帐户。
+
+1. 选择“现有连接”。 选择前面创建的存储帐户。
     > 1. 单击“**+ 容器**”以新建名为 **knowledge-store** 的容器，其隐私级别设置为“**专用**”，然后选择“**创建**”。
     > 1. 选择 knowledge-store 容器，然后单击屏幕底部的“选择”。
 
@@ -166,7 +167,7 @@ lab:
 
 1. 确保“密钥”设置为 metadata_storage_path。 将“建议器名称”留空，并自动填充“搜索模式”。
 
-1. 查看索引字段的默认设置。 对于默认选中的所有字段，请选择“可筛选”。
+1. 查看索引字段的默认设置。 对于默认选中的所有字段，请选择“可筛选”。 需要标记为“可筛选”** 的字段名称包括：内容、位置、键短语、情绪、merged_content、文本、layoutText、imageTags、imageCaption。
 
     ![屏幕截图显示自定义索引窗格，其中包含输入的索引名，以及为默认索引字段选择的“可筛选”。](media/create-cognitive-search-solution/6a-azure-cognitive-search-customize-index.png)
 
@@ -238,11 +239,11 @@ lab:
 
 1. 在 Azure 门户中，导航回你的 Azure 存储帐户。
 
-2. 在左侧菜单窗格中，选择“容器”。 选择“knowledge-store”容器。
+2. 在左侧菜单窗格中，选择“容器”。 选择“knowledge-store”容器。 
 
     ![knowledge-store 容器的屏幕截图。](media/create-cognitive-search-solution/knowledge-store-blob-0.png)
 
-3. 选择任意项，然后单击 objectprojection.json 文件。
+3. 你将看到一个文件夹列表。 每个审阅文档的所有元数据都有一个文件夹。 **** 选择任意文件夹。 在文件夹中，单击 objectprojection.json**** 文件。
 
     ![objectprojection.json 的屏幕截图。](media/create-cognitive-search-solution/knowledge-store-blob-1.png)
 
