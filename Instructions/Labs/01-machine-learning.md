@@ -64,7 +64,7 @@ lab:
             - 数据存储类型：Azure Blob 存储
             - **名称**：workspaceblobstore
         - **MLtable 选择**：
-            - **上传文件夹**：*下载包含需要从以下位置上传的两个文件的文件夹*：`https://aka.ms/bike-rentals`
+            - **上传文件夹**：*下载并解压包含需要上传的两个文件的文件夹* `https://aka.ms/bike-rentals`
 
         选择**创建**。 创建数据集后，选择 bike-rentals 数据集以继续提交自动化 ML 作业。****
 
@@ -145,29 +145,31 @@ lab:
 
 1. 在“输入数据以测试终结点”窗格中，将模板 JSON 替换为以下输入数据：
 
-    ```JSON
+    ```json
     {
-      "Inputs": { 
-        "data": [
-          {
-            "day": 1,
-            "mnth": 1,   
-            "year": 2022,
-            "season": 2,
-            "holiday": 0,
-            "weekday": 1,
-            "workingday": 1,
-            "weathersit": 2, 
-            "temp": 0.3, 
-            "atemp": 0.3,
-            "hum": 0.3,
-            "windspeed": 0.3 
-          }
-        ]    
-      },   
-      "GlobalParameters": 1.0
+      "input_data": {
+        "columns": [
+            {
+                "day": 1,
+                "mnth": 1,   
+                "year": 2022,
+                "season": 2,
+                "holiday": 0,
+                "weekday": 1,
+                "workingday": 1,
+                "weathersit": 2, 
+                "temp": 0.3, 
+                "atemp": 0.3,
+                "hum": 0.3,
+                "windspeed": 0.3 
+            }
+        ],
+        "index": [],
+        "data": []
+      }
     }
     ```
+
 
 1. 单击“测试”按钮****。
 
