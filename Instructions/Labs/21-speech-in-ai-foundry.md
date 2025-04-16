@@ -45,9 +45,9 @@ Azure AI 语音服务可将语音转换为文本，以及将文本转换为可�
 
 ## 在 Azure AI Foundry 的语音操场中探索语音转文本
 
-让我们在 Azure AI Foundry 的语音操场中试用*语音转文本*。 
+让我们在 Azure AI Foundry 的语音操场中试用*实时语音转文本*。 
 
-1. 在“*语音*”页上，向下滚动并选择“*试用语音功能*”下的“**实时听录**”。 你将被带到“*语音操场*”。 
+1. 在“*语音*”页上，向下滚动并选择“*试用语音功能*”下的“**实时语音转文本**”。 你将被带到“*语音操场*”。 
 
 1. 选择 [https://aka.ms/mslearn-speech-files****](https://aka.ms/mslearn-speech-files) 以下载 speech.zip。**** 打开  文件夹。 
 
@@ -59,7 +59,7 @@ Azure AI 语音服务可将语音转换为文本，以及将文本转换为可�
 
 1. 查看输出，该输出应已成功识别音频并将其听录为文本。
 
-在本练习中，你在 Azure AI Foundry 的语音操场中试用了 Azure AI 语音服务。 然后，你使用实时听录来转录音频录制内容。 你可以在播放音频文件时看到生成的听录文本。
+在本练习中，你在 Azure AI Foundry 的语音操场中试用了 Azure AI 语音服务。 然后，使用实时语音转文本服务来听录录音内容。 你可以在播放音频文件时看到生成的听录文本。
 
 ## 清理
 
@@ -70,4 +70,4 @@ Azure AI 语音服务可将语音转换为文本，以及将文本转换为可�
 
 ## 了解详细信息
 
-本练习演示了语音服务的众多功能之一。 若要详细了解此服务的更多用途，请参阅[“语音”页](https://azure.microsoft.com/services/cognitive-services/speech-services)。
+本练习仅演示了语音服务的部分功能。 若要详细了解此服务的更多用途，请参阅[“语音”页](https://azure.microsoft.com/services/cognitive-services/speech-services)。
