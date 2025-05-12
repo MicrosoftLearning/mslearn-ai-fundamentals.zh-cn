@@ -1,8 +1,3 @@
----
-lab:
-  title: 探索 Azure AI Foundry 中的内容安全
----
-
 # 探索 Azure AI Foundry 中的内容安全
 
 Azure AI 服务帮助用户借助开箱即用、预构建的可定制的 API 和模型创建 AI 应用程序。 在本练习中，你将了解其中一项服务（Azure AI 内容安全），以便审查文本和图像内容。 在 Azure AI Foundry 门户（Microsoft 创建智能应用程序的平台）中，你将使用 Azure AI 内容安全对文本进行分类，并为其分配严重性分数。 
