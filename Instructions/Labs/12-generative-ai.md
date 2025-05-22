@@ -9,33 +9,36 @@ lab:
 
 ## 在 Azure AI Foundry 门户中创建项目
 
-1. 在浏览器选项卡中，导航到 [Azure AI Foundry](https://ai.azure.com?azure-portal=true)。
+让我们首先创建 Azure AI Foundry 项目。
 
-1. 使用你的帐户登录。 
+1. 在 Web 浏览器中打开 [Azure AI Foundry 门户](https://ai.azure.com)，网址为：`https://ai.azure.com`，然后使用 Azure 凭据登录。 关闭首次登录时打开的任何使用技巧或快速入门窗格，如有必要，使用左上角的 **Azure AI Foundry** 徽标导航到主页，类似下图所示（若已打开**帮助**面板，请关闭）：
 
-1. 在 Azure AI Foundry 门户主页上，选择“**创建项目**”。 在 Azure AI Foundry 中，项目是有助于组织工作的容器。  
+    ![Azure AI Foundry 主页的屏幕截图，显示已选择“创建代理”。](./media/azure-ai-foundry-home-page.png)
 
-    ![Azure AI Foundry 主页的屏幕截图，其中选择了“创建项目”。](./media/azure-ai-foundry-home-page.png)
+1. 在主页中，选择“**+ 创建代理**”。
 
-1. 在“*创建项目*”窗格中，会看到生成的项目名称，可以按原样保留。 根据你过去是否创建了中心，你将看到要创建的*新* Azure 资源列表或现有中心的下拉列表。 如果看到现有中心的下拉列表，请选择“*新建中心*”，为中心创建唯一名称，然后选择“*下一步*”。  
- 
-    ![“创建项目”窗格的屏幕截图，其中包含中心和项目的自动生成的名称。](./media/azure-ai-foundry-create-project.png)
+1. 在**创建代理**向导中，输入项目有效名称。 
 
-    > **重要说明**：需要在特定位置预配的 Azure AI 服务才能完成实验室的其余工作。
+1. 选择“**高级选项**”，并配置以下设置：
+    - **Azure AI Foundry 资源**：*保留默认名称*
+    - **订阅**：Azure 订阅
+    - **资源组**：*创建或选择资源组*
+    - **区域**：请选择以下位置之一：
+        * 美国东部
+        * 法国中部
+        * 韩国中部
+        * 西欧
+        * 美国西部
 
-1. 在同一“*创建项目*”窗格中，选择“**自定义**”并选择以下“**位置**”之一：美国东部、法国中部、韩国中部、西欧或美国西部，以完成实验室的其余工作。 然后选择“**创建**”。 
+1. 选择“**创建**”，并查看你的配置。 等待设置过程完成。
 
-1. 记下所创建的资源： 
-- Azure AI 服务
-- Azure AI 中心
-- Azure AI 项目
-- 存储帐户
-- 密钥保管库
-- 资源组  
- 
-1. 创建资源后，将转到项目的“*概述*”页。 在屏幕左侧菜单中，选择“**操场**”。
- 
-    ![项目屏幕上左侧菜单的屏幕截图，其中选择了“AI 服务”。](./media/azure-ai-foundry-playgrounds.png)  
+    >**备注**：如果遇到权限错误，请选择“**修复**”按钮，添加相应的权限以继续。
+
+1. 创建项目后，默认情况下会转到 Azure AI Foundry 门户中的 Agents playfround，如下图所示：
+
+    ![Azure AI Foundry 门户中 Azure AI 项目详细信息的屏幕截图。](./media/ai-foundry-project-2.png)
+
+1. 在屏幕左侧菜单中，选择“**操场**”。
 
 ## 在 Azure AI Foundry 的聊天操场中探索生成式 AI
 

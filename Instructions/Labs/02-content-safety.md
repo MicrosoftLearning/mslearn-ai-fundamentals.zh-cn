@@ -33,13 +33,13 @@ Azure AI 服务帮助用户借助开箱即用、预构建的可定制的 API 和
 
 ## 请参阅操作中的 Azure AI 服务
 
-1. 在浏览器选项卡中，导航到 [Azure AI Foundry](https://ai.azure.com?azure-portal=true)。
+让我们首先创建 Azure AI Foundry 项目。
 
-1. 使用你的帐户登录。 
+1. 在 Web 浏览器中打开 [Azure AI Foundry 门户](https://ai.azure.com)，网址为：`https://ai.azure.com`，然后使用 Azure 凭据登录。 关闭首次登录时打开的任何使用技巧或快速入门窗格，如有必要，使用左上角的 **Azure AI Foundry** 徽标导航到主页，类似下图所示（若已打开**帮助**面板，请关闭）：
 
-1. 在“*项目外部的工作*”下，选择“**查看 AI 服务**”磁贴。
+    ![Azure AI Foundry 主页的屏幕截图，显示已选择“创建代理”。](./media/azure-ai-foundry-home-page.png)
  
-    ![项目屏幕上左侧菜单的屏幕截图，其中选择了“AI 服务”。](./media/view-ai-foundry-outside-project.png)  
+1. 在新浏览器窗口中，打开 [Azure AI 服务探索页](https://ai.azure.com/explore/aiservices)。
 
 1. 在“*AI 服务*”页上，选择“*视觉 + 文档*”磁贴以试用 Azure AI 视觉和文档功能。
 
@@ -64,12 +64,4 @@ Azure AI 服务帮助用户借助开箱即用、预构建的可定制的 API 和
 ## 清理 
 
 操作完成后，可从 Azure 门户删除 Azure AI 服务资源。 删除资源是减少因订阅中资源累积而产生成本的一种方法。 要执行此操作，可导航到 Azure AI 服务资源的“**概述**”页。 选择屏幕顶部的“**删除**”。
-
-
-
-
-
-
-
-
 
