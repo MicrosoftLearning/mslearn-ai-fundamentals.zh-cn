@@ -35,9 +35,7 @@ Azure AI 服务帮助用户借助开箱即用、预构建的可定制的 API 和
 
 让我们首先创建 Azure AI Foundry 项目。
 
-1. 在 Web 浏览器中打开 [Azure AI Foundry 门户](https://ai.azure.com)，网址为：`https://ai.azure.com`，然后使用 Azure 凭据登录。 关闭首次登录时打开的任何使用技巧或快速入门窗格，如有必要，使用左上角的 **Azure AI Foundry** 徽标导航到主页，类似下图所示（若已打开**帮助**面板，请关闭）：
-
-    ![Azure AI Foundry 主页的屏幕截图，显示已选择“创建代理”。](./media/azure-ai-foundry-home-page.png)
+1. 在 Web 浏览器中打开 [Azure AI Foundry 门户](https://ai.azure.com)，网址为：`https://ai.azure.com`，然后使用 Azure 凭据登录。 关闭首次登录时弹出的所有提示或快速入门窗格。
  
 1. 在新浏览器窗口中，打开 [Azure AI 服务探索页](https://ai.azure.com/explore/aiservices)。
 
