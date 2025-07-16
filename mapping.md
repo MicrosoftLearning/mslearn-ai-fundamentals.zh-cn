@@ -12,10 +12,11 @@ AI-900 培训师实验室是 AI-900 实验室的一部分，可在 Microsoft Lea
 
 | AI-900 培训师实验室编号 | 主题 | 说明 |
 | --- | --- | --- |
-| AI-900 AI 概述 | 探索 Azure AI 服务 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250253) |
-| AI-900 计算机视觉 | 在 Azure AI Foundry 中分析图像 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250145) |
-| AI-900 自然语言处理 | 在 Azure AI Foundry 中分析文本 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250314) |
-| AI-900 文档智能 | 在 Azure AI Foundry 中提取数据 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250315) |
-| AI-900 生成式 AI | 探索 Azure AI Foundry 中的生成式 AI | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2249955) |
+| AI-900 生成式 AI | 探索 Azure AI Foundry 门户中的生成式 AI | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2249955) |
+| AI-900 自然语言处理 | 在 Azure AI Foundry 门户中分析文本 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250314) |
+| AI-900 语音 | 在 Azure AI Foundry 门户中探索语音 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250148) |
+| AI-900 计算机视觉 | 在 Azure AI Foundry 门户中分析图像 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2250145) |
+| AI-900 信息提取 | 在 Azure AI Foundry 门户中使用内容理解提取数据 | [实验室说明](https://go.microsoft.com/fwlink/?linkid=2320420) |
+
 
 

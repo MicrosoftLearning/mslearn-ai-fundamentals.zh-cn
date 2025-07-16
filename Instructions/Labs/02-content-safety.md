@@ -33,13 +33,11 @@ Azure AI 服务帮助用户借助开箱即用、预构建的可定制的 API 和
 
 ## 请参阅操作中的 Azure AI 服务
 
-1. 在浏览器选项卡中，导航到 [Azure AI Foundry](https://ai.azure.com?azure-portal=true)。
+让我们首先创建 Azure AI Foundry 项目。
 
-1. 使用你的帐户登录。 
-
-1. 在“*项目外部的工作*”下，选择“**查看 AI 服务**”磁贴。
+1. 在 Web 浏览器中打开 [Azure AI Foundry 门户](https://ai.azure.com)，网址为：`https://ai.azure.com`，然后使用 Azure 凭据登录。 关闭首次登录时弹出的所有提示或快速入门窗格。
  
-    ![项目屏幕上左侧菜单的屏幕截图，其中选择了“AI 服务”。](./media/view-ai-foundry-outside-project.png)  
+1. 在新浏览器窗口中，打开 [Azure AI 服务探索页](https://ai.azure.com/explore/aiservices)。
 
 1. 在“*AI 服务*”页上，选择“*视觉 + 文档*”磁贴以试用 Azure AI 视觉和文档功能。
 
@@ -53,7 +51,7 @@ Azure AI 服务帮助用户借助开箱即用、预构建的可定制的 API 和
 
     ![在 Azure AI Foundry 门户中检测人脸演示的屏幕截图。](./media/detect-faces-demo.png)
 
-1. 向下滚动到“**运行代码**”部分。 选择“**视图代码**”。 请向下滚动到以 *import os* 开头的部分。 在提供的示例代码中，你将看到可以放置密钥和终结点的占位符。
+1. 向下滚动到“**运行代码**”部分。 选择“**视图代码**”。 向下滚动到以 *import os* 开头的部分。 在提供的示例代码中，你将看到可以放置密钥和终结点的占位符。
 
     ![视图代码屏幕的屏幕截图，其中包含密钥和终结点的代码占位符的视图。](./media/view-code-example.png) 
 
@@ -64,12 +62,4 @@ Azure AI 服务帮助用户借助开箱即用、预构建的可定制的 API 和
 ## 清理 
 
 操作完成后，可从 Azure 门户删除 Azure AI 服务资源。 删除资源是减少因订阅中资源累积而产生成本的一种方法。 要执行此操作，可导航到 Azure AI 服务资源的“**概述**”页。 选择屏幕顶部的“**删除**”。
-
-
-
-
-
-
-
-
 
