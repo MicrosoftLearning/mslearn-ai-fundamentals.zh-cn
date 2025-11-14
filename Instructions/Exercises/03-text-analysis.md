@@ -9,11 +9,11 @@ Azure AI 语言包含文本分析，具有实体识别、关键短语提取、�
 
 在本练习中，你将在 Azure AI Foundry 门户（Microsoft 创建智能应用程序的平台）中使用 Azure AI 语言，来分析酒店评论。 
 
-此练习大约需要 **20** 分钟。
+此练习大约需要**20** 分钟。
 
 ## 在 Azure AI Foundry 门户中创建项目
 
-1. 在 Web 浏览器中打开 [Azure AI Foundry 门户](https://ai.azure.com)，网址为：`https://ai.azure.com`，然后使用 Azure 凭据登录。 关闭首次登录时打开的任何使用技巧或快速入门窗格，如有必要，使用左上角的 **Azure AI Foundry** 徽标导航到主页，类似下图所示（若已打开**帮助**面板，请关闭）：
+1. 在 Web 浏览器中打开[Azure AI Foundry 门户](https://ai.azure.com)，网址为：`https://ai.azure.com`，然后使用 Azure 凭据登录。 关闭首次登录时打开的任何使用技巧或快速入门窗格，如有必要，使用左上角的**Azure AI Foundry** 徽标导航到主页，类似下图所示（若已打开**帮助**面板，请关闭）：
 
     ![Azure AI Foundry 门户主页的屏幕截图。](./media/ai-foundry-portal.png)
 
@@ -31,7 +31,7 @@ Azure AI 语言包含文本分析，具有实体识别、关键短语提取、�
         - **订阅**：Azure 订阅
         - **资源组**：*创建或选择资源组*
         - 区域****：选择任意一个“AI Foundry 推荐”区域******
-        - AI Foundry 或 Azure OpenAI**** *使用有效的名称创建新的 Azure AI Foundry 资源*
+        - AI Foundry 或 Azure OpenAI*****使用有效的名称创建新的 Azure AI Foundry 资源*
 
 1. 选择**创建**。 等待创建项目。 可能需要几分钟时间。
 
@@ -156,7 +156,7 @@ Azure AI 语言可检测编写文本所用的语言。 此外，使用 Azure AI 
 
 现在，我们将法语评价翻译成英语。
 
-1. 在页面顶部，使用“语言操场”页标题旁边的 &larr;（后退）链接查看所有可用的操场。********
+1. 在页面顶部，使用“语言操场”页标题旁边的&larr;（后退）链接，查看所有可用的操场。********
 1. 在操场列表中，打开“翻译操场”****。
 1. 在“翻译”操场中，选择“文本翻译”。****
 1. 在“配置”窗格中，选择以下语言选项：****
@@ -181,7 +181,7 @@ Azure AI 语言可检测编写文本所用的语言。 此外，使用 Azure AI 
 
 如果不打算做更多的练习，请删除任何不再需要的资源。 这可以避免产生任何不必要的成本。
 
-1. 打开 **Azure 门户** ([https://portal.azure.com](https://portal.azure.com))，然后选择包含你所创建的资源的资源组。
+1. 打开**Azure 门户** ([https://portal.azure.com](https://portal.azure.com))，然后选择包含你所创建的资源的资源组。
 1. 选择“删除资源组”，然后输入资源组名称进行确认********。 这样便会删除该资源组。
 
 ## 了解详细信息
