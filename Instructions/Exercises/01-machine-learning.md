@@ -16,8 +16,8 @@ lab:
 工作区用于将所有机器学习资源放在一起，以便更轻松地在一个统一的位置管理数据、代码、模型和其他资产。
 
 1. 打开要在此实验室中使用的环境的门户，并在出现提示时登录：
-    - 基于 Azure 的[Azure 机器学习工作室](https://ml.azure.com){:target="_blank"}：`https://ml.azure.com`
-    - 基于浏览器的[ML 实验室](https://aka.ms/ml-lab){:target="_blank"}：`https://aka.ms/ml-lab`
+    - 基于 Azure 的 [Azure 机器学习工作室](https://ml.azure.com){:target="_blank"}：`https://ml.azure.com`
+    - 基于浏览器的 [ML 实验室](https://aka.ms/ml-lab){:target="_blank"}：`https://aka.ms/ml-lab`
 
     > **提示**：如果 Azure 机器学习工作室在现有工作区中打开，请导航到“所有工作区”页。****
 
@@ -33,7 +33,7 @@ lab:
 
 在本练习中，你将使用冰淇淋销售数据集来训练一个模型，根据季节性特征和气象特征预测特定日期的冰淇淋需求。
 
-1. 在新的浏览器选项卡中，将****[ml-data.zip](https://aka.ms/mslearn-ml-data) 从`https://aka.ms/mslearn-ml-data` 下载到本地计算机。
+1. 在新的浏览器选项卡中，将 ****[ml-data.zip](https://aka.ms/mslearn-ml-data) 从 `https://aka.ms/mslearn-ml-data` 下载到本地计算机。
 1. 提取已下载的 ml-data.zip 存档，查看其中包含的文件。**** 请注意，其中一个文件是 ice-cream.csv，其中包含本练习所需的冰淇淋销售数据。****
 
 ## 使用自动化机器学习来训练模型
@@ -55,7 +55,7 @@ lab:
     - 将任务类型设置为“回归”。****
     - 创建名为“ice-cream”的新表格数据资产**********
         - 将本地的 ice-cream.csv 文件上传到默认的工作区存储。****
-        - <u>仅</u>包含以下列（每个行的“日期”是唯一的，并可自行添加预测功能）：**
+        - <u>仅</u>包含以下列（“日期”在每一行中都是唯一的，且自身对预测能力的贡献较小）：**
             - **DayOfWeek**
             - **月**
             - **温度**
@@ -190,5 +190,5 @@ lab:
 
 删除工作区的步骤：
 
-1. 在[Azure 门户](https://portal.azure.com)的“资源组”页中，打开在创建 Azure 机器学习工作区时指定的资源组。
+1. 在 [Azure 门户](https://portal.azure.com)的“资源组”页中，打开在创建 Azure 机器学习工作区时指定的资源组。
 2. 单击“删除资源组”，键入资源组名称以确认要删除资源组，然后选择“删除”。
